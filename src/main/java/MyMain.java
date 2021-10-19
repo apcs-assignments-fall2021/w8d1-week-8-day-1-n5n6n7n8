@@ -28,6 +28,7 @@ public class MyMain {
         for (int i = 0; i < 20; i++) {
             System.out.print(Mathey.randomInteger(8) + ", ");
         }
+        System.out.println("");
         System.out.println("Mathey.pow tests");
         System.out.println(Mathey.pow(2,4));
         System.out.println(Mathey.pow(5,3));
@@ -45,5 +46,10 @@ public class MyMain {
         System.out.println("Mathey.ceil tests");
         System.out.println(Mathey.ceil(2.45));
         System.out.println(Mathey.ceil(2.99999));
+        System.out.println("Mathey.sqrt tests");
+        System.out.println(Mathey.sqrt(16.0));
+        System.out.println(Mathey.sqrt(10));
+        System.out.println("Mathey pythagorean theorem test");
+        System.out.println(Mathey.sqrt(Mathey.pow(5,2)+Mathey.pow(12,2)));
     }
 }
